@@ -32,11 +32,17 @@ const BlockUser = () => {
     remove(ref(db, "block/" + id));
   };
 
+  
+
+
+
   return (
     <div className="boxcontainer" style={{ marginTop: "50px" }}>
       <div className="titleholder">
         <h2>Block List</h2>
       </div>
+
+      
 
       {blocklist.map((item) => (
         <div className="box">
